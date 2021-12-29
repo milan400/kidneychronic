@@ -14,7 +14,7 @@ import streamlit as st
 
 dirname = os.path.dirname(__file__)
 
-filename = os.path.join(dirname, 'modelandgraph/rfc_high.pkl')
+filename = os.path.join(dirname, 'rfc_high.pkl')
 
 
 clf = pickle.load(open(filename, 'rb'))
